@@ -1,0 +1,582 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+	background-color:white;
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+}
+/*ul li a TAGS*/
+ul{
+	list-style-type:none;
+	display:inline-block;
+	float:right;
+}
+	
+	li{
+		float:left;
+	}
+
+a{
+	text-decoration:none;
+}
+
+/*TOP NAVIGATION BAR*/
+
+.top{
+	height:50px;
+	width:100%;
+	background-color:#F10086;
+	position: fixed;
+	top: 0;
+	
+}
+
+.top a{
+	padding-right:15px;
+	margin-left:-5px;
+	margin-left:10px;
+	color:white;
+	line-height:5%;
+}
+
+.top a:hover{
+	color:black
+}
+
+/*NAVBAR LOGO*/
+
+.logo{
+	margin-left:40px;
+	position:relative;
+	top:19px;
+	font-weight:1000;
+
+}
+
+.logo:hover{
+color: white;}
+
+/*BOTTOM NAVIGATION BAR*/
+
+.footer{
+	display: flex;
+	justify-content: center;
+	/* position:fixed; */
+	bottom:0;
+	background-color:white;
+	width:100%;
+}
+
+/*li ul CLASS*/
+.l{
+	float:left;
+}
+
+.uorder{
+
+	float:left;
+
+}
+/*-------------------FOOTER---------------------*/
+.footer a{
+
+	padding-right:20px;
+	color:black;
+	
+}
+
+a:hover{
+	color:#F10086;
+}
+
+
+/*BOTTOM NAVBAR ICONS CLASS */
+
+.twitter:hover{
+	color:#0AA1DD;
+}
+
+.linkedin:hover{
+	color:blue;
+}
+.github:hover{
+	color:gray;
+}
+	
+/*TOP NAVBAR ICON CLASS*/
+
+.home:hover{
+	color:#00FFC6;
+}
+
+.About:hover{
+	color:#F90716;
+}
+
+.Contact:hover{
+	color:#B5FE83;
+}
+.Skills:hover{
+	color:#C4DDFF;
+}
+
+
+/*MAIN CONTEENT*/
+
+/*IMAGE*/
+
+.img{
+	height: 340px;
+	width: 100%;
+	background-color:#F10086;
+
+	
+
+
+}
+
+.imgcv{
+	display: block;
+	margin: 50px auto;
+	border-radius: 50%;
+	border: 10px solid white;
+	
+	
+}
+
+/*MAIN*/
+/*NAME*/
+
+.name{
+
+	height: 50px;
+	width: 100%;
+	background-color: #F10086;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+
+}
+
+.intro{
+	height: 50px;
+	width: 50;
+	margin: 0 auto;
+}
+
+#intro{
+	height: 50px;
+	/* margin-left: 200px;
+	margin-right: 200px; */
+	background-color: white;
+	text-align: center;
+	word-wrap: break-word;
+
+}
+
+/*SKILLS*/
+
+.settings{
+	animation: animate__rotateOut 0.85s ease infinite;
+	
+}
+
+#skills{
+	text-align: center;
+
+}
+
+.skills{
+	height: 340px;
+	width: 100%;
+	background-color:white;
+}
+
+#line{
+	background-color: #F10086;
+	border-style: dotted;
+	width: 50px;
+	height: 2px;
+	border-radius: 20px;
+}
+
+
+.ps{
+	height: 200px;
+	width: 550px;
+	background-color: white;
+	margin: 0 auto;
+	border: 5px solid white;
+	text-align: center;
+	margin-top: -200px;
+	
+}
+
+/*icons*/
+
+.tag1 {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 200px;
+	padding-left: 100px;
+	color: #F10086;
+}
+
+.tag2{
+	font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 200px;
+	float: right;
+	padding-right: 100px;
+	color: #F10086;
+	margin-top: -210px;
+
+
+}
+
+/*EDUCATION*/
+.education{
+	/* text-align: center; */
+	height: 800px;
+	width: 100%;
+	background-color: white;
+}
+
+#ed{
+	text-align: center;
+}
+#degree{
+	text-align: center;
+}
+
+.degree{
+	background-color: #F10086;
+	color: white;
+}
+
+/*12*/
+
+.hsc{
+	float: left;
+	margin-left: 100px;
+}
+
+#hsc{
+
+}
+
+.ten{
+	float: right;
+	margin-right: 100px;
+
+}
+
+#ten{
+	margin-top: -380px;
+}
+
+/**/
+
+.border{
+border-left: 6px dotted #F10086;
+  height: 400px;
+  width: 0;
+  /* position: absolute; */
+  margin-left: 50%;
+}
+
+/*PROJECT*/
+
+.project{
+	height: 400px;
+	width: 100%;
+	text-align: center;
+	background-color: #F10086;
+	color: white;
+}
+
+/*CERTIFICATON*/
+.certification{
+	height: 90px;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+}
+
+.certify{
+	animation:animate__pulse 0.85s ease infinite;
+}
+
+/*EXPERIENCE*/
+.experience{
+	height: 120px;
+	width: 100%;
+	text-align: center;
+	background-color: #F10086;
+	color: white;
+}
+
+/*HOBBIES*/
+.hobbies{
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+}
+
+/*Contact*/
+
+#contact{
+	background-color: #F10086;
+}
+
+.contact{
+	height: 400px;
+	width: 100%;
+	background-color: #F10086;
+}
+
+#ch{
+	margin: 0 auto;
+}
+
+#contact {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1,
+#contact h1 span {
+    color: white;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#contact .social-icons li a i {
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width:600px) {
+
+
+	.logo{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 15px;
+	}
+	.top{
+		
+		height: 90px;
+	}
+	a{
+		margin-right: 10px;
+	}
+	.img{
+		height: 270px;
+	}
+
+	.imgcv{
+		margin-top: 90px;
+		height: 250px;
+	}
+
+	.name{
+		font-size: 15px;
+	}
+
+	.intro{
+		font-size: smaller;
+	}
+	
+	.tag1{
+		opacity: 0;
+	}
+	.tag2{
+		opacity: 0;
+	}
+
+	#ps{
+		margin-right: 50px;
+	}
+
+	.border{
+		/* border: none; */
+	}
+
+
+	.education{
+		font-size:small;
+		height: 600px;
+	}
+
+.hscten{
+	/* margin-left: -75px; */
+	font-size: 10px;
+	
+}
+
+.hsc{
+	margin-right: 500px;
+
+	text-align: right;
+}
+
+.ten{
+	margin-left: 500px;
+	
+}
+
+.project{
+	font-size: small;
+	height: 300px;
+}
+
+.certification{
+	font-size: small;
+}
+
+.experience{
+	font-size: small;
+}
+
+.hobbies{
+	font-size: small;
+	height: 150px;
+}
+
+.contact{
+	text-align: center;
+	font-size: small;
+}
+
+.sub-btn{
+	width: 100px;
+	height: 60px;
+}
+
+#email{
+	font-size: 13px;
+	
+}
+
+}
+
+/*animation*/
+
+@keyframes animate__rotateOut{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes animate__pulse{
+	0%{
+		color: black;
+	}
+	100%{
+		color: red;
+	}
+}
